@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 27 27 27;
+    --foreground: 225 225 225;
+    --muted: 115 115 115;
+    --accent: 254 254 91;
+    /*--accent: rgb(254, 254, 91)*/
+    /* #FEFE5B */
+  }
+}
+
+
+@layer utilities {
+  .pause{
+    animation-play-state: paused;
+  }
+
+  /*.custom-bg{*/
+  /*  @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px]*/
+  /*  shadow-glass-inset hover:shadow-glass-sm*/
+  /*}*/
+  .custom-bg {
+    @apply bg-[#252828]/20 border border-[#40b6f0]/30 border-solid backdrop-blur-[6px]
+    shadow-glass-inset hover:shadow-glass-sm;
+  }
+
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0.7;
+  }
+  
+  100% {
+    transform: translate(100px, 100px);
+    opacity: 0.7;
+  }
+}
+
+/* This new home animation */
+
+/* @keyframes float {
+  0%, 100% { transform: translateY(0) }
+  50% { transform: translateY(-10px) }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px) }
+  to { opacity: 1; transform: translateY(0) }
+}
+
+@keyframes particle {
+  0% { transform: translateY(0) scale(1); opacity: 0.8 }
+  100% { transform: translateY(-100vh) scale(0); opacity: 0 }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-particle {
+  animation: particle 5s linear infinite;
+}
+
+.bg-grid {
+  background-image: linear-gradient(to right, #06b6d4 1px, transparent 1px),
+                   linear-gradient(to bottom, #06b6d4 1px, transparent 1px);
+  background-size: 40px 40px;
+} */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes particle {
+  0% { transform: translateY(0) scale(1); opacity: 0.8; }
+  100% { transform: translateY(-100vh) scale(0); opacity: 0; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-particle {
+  animation: particle 6s linear infinite;
+}
+
+.bg-grid {
+  background-image: 
+    linear-gradient(to right, rgba(6, 182, 212, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}

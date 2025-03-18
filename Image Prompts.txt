@@ -1,0 +1,44 @@
+Site: https://playground.com/
+
+Default Configuration: 
+
+- Model: Stable Diffusion XL
+
+- Filter: RealVis XL
+
+- Image Dimentions: 1024*576 (16:9)
+
+- Quality & Details: 30 steps
+
+--------------------------------------------------
+
+Home Page Background
+
+
+- Seed: 656140970
+
+
+--------------------------------------------------
+
+About Page Background
+
+- Seed: 568754894
+
+
+--------------------------------------------------
+
+Projects Page Background
+
+
+- Seed: 949988405
+
+
+--------------------------------------------------
+
+Contact Page Background
+
+
+- Seed: 225378614
+
+
+https://sketchfab.com/3d-models/laptop-ed2a53dd243f492b8ce3ad1f4f54457b <<lap model
