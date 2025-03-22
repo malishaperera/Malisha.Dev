@@ -181,7 +181,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Malisha_Perera_ATS.pdf",
     icon: "resume",
     newTab: true,
   },
