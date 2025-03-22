@@ -24,6 +24,7 @@ export default function Contact() {
                   free to reach out. I'm always open to new opportunities and
                   collaborations. Please fill out the form below, and I'll get back to
                   you as soon as possible!`}
+
           </p>
         </div>
         <Form />
