@@ -16,97 +16,143 @@ Websites:
 
 */
 import ecotracker from "../../public/background/about1.jpeg";
+import calculator from "../../public/project-Image/calculator.jpg";
+import car_blog from "../../public/project-Image/car_blog.jpg";
+import chat_application from "../../public/project-Image/chat-application.png";
+import salary from "../../public/project-Image/salary.jpg";
+import hotel_site from "../../public/project-Image/hotel-site.jpg";
+import network from "../../public/project-Image/network.jpg";
+import amazon from "../../public/project-Image/amazon.png";
+import car_rental from "../../public/project-Image/car_rental.png";
+
+
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    // demoLink: "https://ecotracker.example.com",
-    demoLink:"https://github.com/malishaperera/FlexiDrive-Car-Rental-FrontEnd",
-    techStack: ["React", "Node.js", "MongoDB"] ,
-    image: ecotracker
+    name: "FlexiDrive-Car-Rental-BackEnd",
+    description: "Car Rental WebApplication",
+    date: "2025-03-10",
+    demoLink:"https://github.com/malishaperera/FlexiDrive-Car-Rental-BackEnd.git",
+    techStack: ["React.ts", "Node.js", "Express.js","Prisma"] ,
+    image: car_rental
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
-    image:ecotracker
+    name: "FlexiDrive-Car-Rental-FrontEnd",
+    description: "Car Rental WebApplication",
+    date: "2025-03-10",
+    demoLink:"https://github.com/malishaperera/FlexiDrive-Car-Rental-FrontEnd",
+    techStack: ["React.ts", "Redux", "TailwindCss"] ,
+    image: car_rental
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
+    name: "KV-Audio-Rental-BackEnd",
+    description: "Audio Rental Shop",
+    date: "2022-06-20",
+    demoLink: "https://github.com/malishaperera/KV-Audio-Rental-FrontEnd.git",
+    techStack: ["React.js", "TailwindCss", "MongoDB"],
     image:ecotracker
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
+    name: "KV-Audio-Rental-FrontEnd",
+    description: "Audio Rental Shop",
+    date: "2022-09-10",
+    demoLink: "https://github.com/malishaperera/KV-Audio-Rental-BackEnd.git",
+    techStack: ["React.js", "Node.js", "Express.js"],
     image:ecotracker
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
+    name: "ReactNative-Shoes-app",
+    description: "Api shoes",
+    date: "2022-05-30",
+    demoLink: "https://github.com/malishaperera/ReactNative-Shoes-app.git",
+    techStack: ["React-Native", "Gluestack-ui","zustand"],
     image:ecotracker
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
+    name: "Crop-Monitoring-System-FRONTEND",
+    description: "Crop-Monitoring-System",
+    date: "2022-07-12",
+    demoLink: "https://github.com/malishaperera/Crop-Monitoring-System-FRONTEND.git",
+    techStack: ["Html", "Css", "JavaScript"],
     image:ecotracker
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-    techStack: ["React", "Node.js", "MongoDB"] ,
+    name: "Crop-Monitoring-System-BACKEND",
+    description: "Crop-Monitoring-System",
+    date: "2022-10-01",
+    demoLink: "https://github.com/malishaperera/Crop-Monitoring-System-BACKEND.git",
+    techStack: ["Java", "Spring-Boot", "Hibernate"],
     image:ecotracker
   },
+    //
   {
     id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-    techStack: ["React", "Node.js", "MongoDB"] ,
-    image:ecotracker
+    name: "Amazon-Project",
+    description: "Amazon simple site",
+    date: "2022-10-29",
+    demoLink: "https://github.com/malishaperera/Amazon-Project.git",
+    techStack: ["Javascript", "Html", "Css"] ,
+    image:amazon
   },
   {
     id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
-    image:ecotracker
+    name: "MST-Minimum-Spanning-Tree",
+    description: "Connect-nodes-with-minimum-connection-costs",
+    date: "2024-09-05",
+    demoLink: "https://github.com/malishaperera/MST-Minimum-Spanning-Tree.git",
+    techStack: ["JavaScript", "Html", "Css","Prim's algorithm "] ,
+    image:network
   },
   {
     id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-    techStack: ["React", "Node.js", "MongoDB"],
-    image:ecotracker
+    name: "Hotel-Site ",
+    description: "Hotel Web Site",
+    date: "2024-06-14",
+    demoLink: "https://github.com/malishaperera/Hotel-Site.git",
+    techStack: ["Html", "Css", "Javascript","Bootstrap"],
+    image:hotel_site
+  },
+  {
+    id: 11,
+    name: "Calculator",
+    description: "simple-calculator",
+    date: "2024-04-26",
+    demoLink: "https://github.com/malishaperera/Calculator.git",
+    techStack: ["Html", "Css", "Javascript"],
+    image:calculator
+  },
+  {
+    id: 12,
+    name: "Salary_prediction",
+    description: "Simple salary prediction using machine learning models.",
+    date: "2024-04-02",
+    demoLink: "https://github.com/malishaperera/Salary_prediction.git",
+    techStack: ["Python","Liner-regression", "Regression", "Supervised-learning"],
+    image:salary
+  },
+  {
+    id: 13,
+    name: "Car_blog ",
+    description: "Car Blog Web Site",
+    date: "2024-03-29",
+    demoLink: "https://github.com/malishaperera/Car_blog.git",
+    techStack: ["Html", "Css"],
+    image:car_blog
+  },
+  {
+    id: 14,
+    name: "Chat_Application ",
+    description: "Java Socket Programming - Multiple Clients Chat",
+    date: "2024-01-31",
+    demoLink: "https://github.com/malishaperera/Chat_Application.git",
+    techStack: ["Java"],
+    image:chat_application
   },
 ];
 
