@@ -38,7 +38,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Hey,I'm Malisha Perera
+              {`Hey, I'm Malisha Perera`}
           </motion.h1>
 
           {/* Animated Subtitle (Fullstack Developer) */}

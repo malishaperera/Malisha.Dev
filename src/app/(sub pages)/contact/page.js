@@ -20,10 +20,10 @@ export default function Contact() {
             Contact Me!
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            If you have any questions, inquiries, or just want to connect, feel
-            free to reach out. I'm always open to new opportunities and
-            collaborations. Please fill out the form below, and I'll get back to
-            you as soon as possible!
+              {`If you have any questions, inquiries, or just want to connect, feel
+                  free to reach out. I'm always open to new opportunities and
+                  collaborations. Please fill out the form below, and I'll get back to
+                  you as soon as possible!`}
           </p>
         </div>
         <Form />
