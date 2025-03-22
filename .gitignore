@@ -34,4 +34,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/project-Image/profile.jpg
+#public/project-Image/profile.jpg
