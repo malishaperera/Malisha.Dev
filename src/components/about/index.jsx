@@ -38,12 +38,9 @@ const AboutDetails = () => {
                 Full Stack Developer
                 </h2>
                 <p className="text-gray-400 leading-relaxed">
-                  My journey in web development is powered by an array of mystical
-                  tools and languages, with JavaScript casting the core of my
-                  enchantments. I wield frameworks like React.js and Next.js with
-                  precision, crafting seamless portals (websites) that connect
-                  realms (users) across the digital universe.
+                  I am a passionate and dedicated full-stack engineer intern, currently learning and working with modern technologies like React, Node.js, and TypeScript. I enjoy building scalable and user-friendly applications, and I am always excited to take on new challenges and improve my skills. With a strong foundation in both frontend and backend development, I aim to create impactful solutions that drive innovation.
                 </p>
+
               </motion.div>
             </ItemLayout>
           </div>
